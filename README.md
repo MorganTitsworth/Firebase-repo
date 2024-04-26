@@ -1,0 +1,4 @@
+- getStatus() retrieves the data from firebase which we render by using the map() method // read
+- addStatus() uses the addDoc() method from firebase, add to the db then retrieves it // add
+- deleteStatus() uses the deleteDoc() method, passes in the element id as a function parameter. we will filter out the item that matches the current id // delete
+- updateStatus() passed as a prop, will take in an id and map through the current statuses. if the id matches it will use the spread operator and update the content value for the key-value pair with the updatedStatus paramater. // edit
